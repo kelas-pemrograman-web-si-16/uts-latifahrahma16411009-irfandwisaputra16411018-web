@@ -1,0 +1,234 @@
+html
+    head
+        include head
+    body
+        .site-wrap
+            .site-navbar.bg-white.py-2
+                .search-wrap
+                    .container
+                        a.search-close.js-search-close(href='#')
+                            span.icon-close2
+                        form(action='#', method='post')
+                            input.form-control(type='text', placeholder='Search keyword and hit enter...')
+                .container
+                    .d-flex.align-items-center.justify-content-between
+                        .logo
+                            .site-logo
+                                a.js-logo-clone(href='index.html') ShopMax
+                        .main-nav.d-none.d-lg-block
+                            nav.site-navigation.text-right.text-md-center(role='navigation')
+                                ul.site-menu.js-clone-nav.d-none.d-lg-block
+                                    li.has-children
+                                        a(href='index.html') Home
+                                        ul.dropdown
+                                            li
+                                                a(href='#') Menu One
+                                            li
+                                                a(href='#') Menu Two
+                                            li
+                                                a(href='#') Menu Three
+                                            li.has-children
+                                                a(href='#') Sub Menu
+                                                ul.dropdown
+                                                    li
+                                                        a(href='#') Menu One
+                                                    li
+                                                        a(href='#') Menu Two
+                                                    li
+                                                        a(href='#') Menu Three
+                                    li.active
+                                        a(href='shop.html') Shop
+                                    li
+                                        a(href='#') Catalogue
+                                    li
+                                        a(href='#') New Arrivals
+                                    li
+                                        a(href='contact.html') Contact
+                        .icons
+                            a.icons-btn.d-inline-block.js-search-open(href='#')
+                                span.icon-search
+                            a.icons-btn.d-inline-block(href='#')
+                                span.icon-heart-o
+                            a.icons-btn.d-inline-block.bag(href='cart.html')
+                                span.icon-shopping-bag
+                                span.number 2
+                            a.site-menu-toggle.js-menu-toggle.ml-3.d-inline-block.d-lg-none(href='#')
+                                span.icon-menu
+            .site-blocks-cover.inner-page(data-aos='fade')
+                .container
+                    .row
+                        .col-md-6.ml-auto.order-md-2.align-self-start
+                            .site-block-cover-content
+                                h2.sub-title #New Summer Collection 2019
+                                h1 Shop With Us
+                                p
+                                    a.btn.btn-black.rounded-0(href='#') Shop Now
+                        .col-md-6.order-1.align-self-end
+                            img.img-fluid(src='assets/images/model_7.png', alt='Image')
+            .custom-border-bottom.py-3
+                .container
+                    .row
+                        .col-md-12.mb-0
+                            a(href='index.html') Home
+                            span.mx-2.mb-0 /
+                            strong.text-black About
+            .site-section.site-section-sm.site-blocks-1.border-0(data-aos='fade')
+                .container
+                    .row
+                        .col-md-6.col-lg-4.d-lg-flex.mb-4.mb-lg-0.pl-4(data-aos='fade-up', data-aos-delay='')
+                            .icon.mr-4.align-self-start
+                                span.icon-truck
+                            .text
+                                h2.text-uppercase Free Shipping
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.
+                        .col-md-6.col-lg-4.d-lg-flex.mb-4.mb-lg-0.pl-4(data-aos='fade-up', data-aos-delay='100')
+                            .icon.mr-4.align-self-start
+                                span.icon-refresh2
+                            .text
+                                h2.text-uppercase Free Returns
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.
+                        .col-md-6.col-lg-4.d-lg-flex.mb-4.mb-lg-0.pl-4(data-aos='fade-up', data-aos-delay='200')
+                            .icon.mr-4.align-self-start
+                                span.icon-help
+                            .text
+                                h2.text-uppercase Customer Support
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.
+            .site-section.custom-border-bottom(data-aos='fade')
+                .container
+                    .row.mb-5
+                        .col-md-6
+                            .block-16
+                                figure
+                                    img.img-fluid.rounded(src='assets/images/blog_1.jpg', alt='Image placeholder')
+                                    a.play-button.popup-vimeo(href='https://vimeo.com/channels/staffpicks/93951774')
+                                        span.icon-play
+                        .col-md-1
+                        .col-md-5
+                            .site-section-heading.pt-3.mb-4
+                                h2.text-black How We Started
+                            p
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repellat, dicta at laboriosam, nemo exercitationem itaque eveniet architecto cumque, deleniti commodi molestias repellendus quos sequi hic fugiat asperiores illum. Atque, in, fuga excepturi corrupti error corporis aliquam unde nostrum quas.
+                            p
+                                | Accusantium dolor ratione maiores est deleniti nihil? Dignissimos est, sunt nulla illum autem in, quibusdam cumque recusandae, laudantium minima repellendus.
+            .site-section.custom-border-bottom(data-aos='fade')
+                .container
+                    .row.justify-content-center.mb-5
+                        .col-md-7.site-section-heading.text-center.pt-4
+                            h2 The Team
+                    .row
+                        .col-md-6.col-lg-3
+                            .block-38.text-center
+                                .block-38-img
+                                    .block-38-header
+                                        img.mb-4(src='assets/images/person_1.jpg', alt='Image placeholder')
+                                        h3.block-38-heading.h4 Elizabeth Graham
+                                        p.block-38-subheading CEO/Co-Founder
+                                    .block-38-body
+                                        p
+                                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.
+                        .col-md-6.col-lg-3
+                            .block-38.text-center
+                                .block-38-img
+                                    .block-38-header
+                                        img.mb-4(src='assets/images/person_2.jpg', alt='Image placeholder')
+                                        h3.block-38-heading.h4 Jennifer Greive
+                                        p.block-38-subheading Co-Founder
+                                    .block-38-body
+                                        p
+                                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.
+                        .col-md-6.col-lg-3
+                            .block-38.text-center
+                                .block-38-img
+                                    .block-38-header
+                                        img.mb-4(src='assets/images/person_3.jpg', alt='Image placeholder')
+                                        h3.block-38-heading.h4 Patrick Marx
+                                        p.block-38-subheading Marketing
+                                    .block-38-body
+                                        p
+                                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.
+                        .col-md-6.col-lg-3
+                            .block-38.text-center
+                                .block-38-img
+                                    .block-38-header
+                                        img.mb-4(src='assets/images/person_4.jpg', alt='Image placeholder')
+                                        h3.block-38-heading.h4 Mike Coolbert
+                                        p.block-38-subheading Sales Manager
+                                    .block-38-body
+                                        p
+                                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta.
+            footer.site-footer.custom-border-top
+                .container
+                    .row
+                        .col-md-6.col-lg-3.mb-4.mb-lg-0
+                            h3.footer-heading.mb-4 Promo
+                            a.block-6(href='#')
+                                img.img-fluid.rounded.mb-4(src='assets/images/about_1.jpg', alt='Image placeholder')
+                                h3.font-weight-light.mb-0 Finding Your Perfect Shirts This Summer
+                                p Promo from  July 15 — 25, 2019
+                        .col-lg-5.ml-auto.mb-5.mb-lg-0
+                            .row
+                                .col-md-12
+                                    h3.footer-heading.mb-4 Quick Links
+                                .col-md-6.col-lg-4
+                                    ul.list-unstyled
+                                        li
+                                            a(href='#') Sell online
+                                        li
+                                            a(href='#') Features
+                                        li
+                                            a(href='#') Shopping cart
+                                        li
+                                            a(href='#') Store builder
+                                .col-md-6.col-lg-4
+                                    ul.list-unstyled
+                                        li
+                                            a(href='#') Mobile commerce
+                                        li
+                                            a(href='#') Dropshipping
+                                        li
+                                            a(href='#') Website development
+                                .col-md-6.col-lg-4
+                                    ul.list-unstyled
+                                        li
+                                            a(href='#') Point of sale
+                                        li
+                                            a(href='#') Hardware
+                                        li
+                                            a(href='#') Software
+                        .col-md-6.col-lg-3
+                            .block-5.mb-5
+                                h3.footer-heading.mb-4 Contact Info
+                                ul.list-unstyled
+                                    li.address 203 Fake St. Mountain View, San Francisco, California, USA
+                                    li.phone
+                                        a(href='tel://23923929210') +2 392 3929 210
+                                    li.email emailaddress@domain.com
+                            .block-7
+                                form(action='#', method='post')
+                                    label.footer-heading(for='email_subscribe') Subscribe
+                                    .form-group
+                                        input#email_subscribe.form-control.py-4(type='text', placeholder='Email')
+                                        input.btn.btn-sm.btn-primary(type='submit', value='Send')
+                    .row.pt-5.mt-5.text-center
+                        .col-md-12
+                            p
+                                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                | Copyright ©
+                                script.
+                                    document.write(new Date().getFullYear());
+                                |  All rights reserved | This template is made with
+                                i.icon-heart(aria-hidden='true')
+                                |  by
+                                a.text-primary(href='https://colorlib.com', target='_blank') Colorlib
+                                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+        script(src='assets/js/jquery-3.3.1.min.js')
+        script(src='assets/js/jquery-ui.js')
+        script(src='assets/js/popper.min.js')
+        script(src='assets/js/bootstrap.min.js')
+        script(src='assets/js/owl.carousel.min.js')
+        script(src='assets/js/jquery.magnific-popup.min.js')
+        script(src='assets/js/aos.js')
+        script(src='assets/js/main.js')
